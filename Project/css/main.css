@@ -1,0 +1,714 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    /* overflow-x: hidden; */
+    
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #FD0600;
+  }
+  
+  ::selection {
+    color: white;
+    background: #FD0600;
+  }
+
+
+.center {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+/* ********************************************* */
+/* *************** Hearo part ************* */
+/* ********************************************* */
+
+.hero {
+    width: 100%;
+    /* height: 55.6px; */
+    height: auto;
+    background-color: #dbdde259;
+
+}
+
+.hero span {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.hero span i {
+    font-size: 17px;
+    margin-right: 5px;
+}
+
+.contact span:hover {
+    color: #FD0600;
+    cursor: pointer;
+}
+
+
+.hero .slide_text {
+    width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.hero button {
+    padding: 5px;
+    margin: 10px;
+    font-size: 13px;
+    border: #FD0600 1px solid;
+    color: #FD0600;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+
+/* ********************************************* */
+/* *************** navigation bar part ************* */
+/* ********************************************* */
+.navbar {
+    box-shadow: none !important;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.user {
+    font-size: 20px;
+}
+
+.user i {
+    margin-left: 10px;
+}
+
+.navbar-nav a:hover {
+    color: #FD0600 !important;
+}
+
+.cake_dd {
+    position: absolute;
+    width: 80vw;
+    height: 85vh;
+    background-color: white;
+    border: 1px rgba(190, 190, 190, 0.562) solid;
+    z-index: 1000;
+    display: none;
+}
+
+.cake_dd p {
+    font-size: 15px;
+    padding: 5px 20px 5px 20px;
+    border-bottom: 1px rgba(209, 208, 208, 0.5) solid;
+    text-align: center;
+}
+
+.cake_dd p a {
+    color: gray;
+}
+
+.dropdown ul {
+    border: 1px rgba(190, 190, 190, 0.562) solid;
+
+}
+
+.dropdown ul li {
+    list-style-type: none;
+    padding: 15px 20px 15px 20px;
+    /* border-bottom: 1px gray solid; */
+}
+
+.dropdown ul li a {
+    color: gray;
+}
+
+.dropdown ul li a:hover {
+    color: #FD0600;
+}
+
+.dropdown>ul {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    background-color: white;
+
+    z-index: 1000;
+}
+
+
+.dropdown ul li {
+    border-bottom: 1px rgba(209, 208, 208, 0.5) solid;
+}
+
+.sub_dropdown_left {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    background-color: white;
+    left: 300px;
+
+}
+
+.photo_cake_DD {
+    display: none;
+}
+
+.Cakes_by_Design {
+    display: none;
+}
+
+.Carz_cakes {
+    display: none;
+}
+
+.Frozen_cakes {
+    display: none;
+}
+
+.Custom_Cakes {
+    display: none;
+}
+
+.What_New {
+    display: none;
+}
+
+.Premium {
+    display: none;
+}
+
+
+
+/**********  Mobile nav bar ***********/
+
+
+
+.mobile_nav_bar {
+    position: absolute;
+    top: 0px;
+    left: -350px;
+    width: 350px;
+    height: 100vh;
+    background-color: white;
+    z-index: 1000;
+    transition: 0.3s ease-out;
+}
+
+.mon_menu_icon{
+    display: none;
+}
+
+.close{
+    float: right;
+    font-size: 30px;
+    max-width: 10px;
+    position: absolute;
+    top: 0;
+    left: 290px;
+}
+
+
+.menu_tab {
+    width: 100%;
+    height: 100%;
+}
+
+.tab_button {
+    width: 70%;
+    display: flex;
+}
+
+
+.menu_btn {
+    width: 100%;
+    height: 100px;
+    background-color: #FD0600;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_btn  span{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.acc_btn {
+    width: 50%;
+    height: 100px;
+    background-color: aqua;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.shadow_none {
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+}
+
+
+.mobile_nav_bar {
+    display:block;
+}
+
+.menu_tab{
+    padding: 20px;
+}
+
+.menu_tab ul li{
+    list-style-type: none;
+    padding: 7px;
+    border-bottom: rgba(228, 225, 225, 0.63) 0.7px solid;
+}
+
+.d_icon{
+    color: #FD0600;
+    font-size: 15px;
+}
+
+.mob_sub_d{
+    display: none;
+}
+
+/* .mob_cake:hover > .mob_sub_d{
+    display: block;
+} */
+
+
+
+/* ********************************************* */
+/* *************** account tab   ************* */
+/* ********************************************* */
+
+
+
+.acc_bar {
+    position: absolute;
+    top: 0px;
+    right: -350px;
+    width: 350px;
+    height: 100vh;
+    background-color: white;
+    z-index: 1000;
+    transition: 0.3s ease-out;
+}
+
+
+
+.close{
+    float: right;
+    font-size: 30px;
+    max-width: 10px;
+    position: absolute;
+    top: 0;
+    left: 290px;
+}
+
+
+.menu_tab {
+    width: 100%;
+    height: 100%;
+}
+
+.menu_tab a:hover{
+    color: #FD0600;
+}
+
+.menu_tab a{
+    color: black;
+}
+
+.tab_button {
+    width: 70%;
+    display: flex;
+}
+
+
+
+
+
+
+.acc_btn {
+    width: 50%;
+    height: 100px;
+    background-color: aqua;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.shadow_none {
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+}
+
+
+.acc_bar {
+    display:block;
+}
+
+.menu_tab{
+    padding: 20px;
+}
+
+.menu_tab ul li{
+    list-style-type: none;
+    padding: 7px;
+    border-bottom: rgba(228, 225, 225, 0.63) 0.7px solid;
+}
+
+.d_icon{
+    color: #FD0600;
+    font-size: 15px;
+}
+
+
+
+
+/* ********************************************* */
+/* *************** banner part ************* */
+/* ********************************************* */
+
+.banner {
+    width: 100%;
+    max-height: 50px;
+    background-color: #FD0600;
+    color: white;
+}
+
+.banner p {
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+
+
+
+/* ********************************************* */
+/* *************** slide show part ************* */
+/* ********************************************* */
+
+
+.slide_show_land {
+    width: 100%;
+    max-height: 400px !important;
+}
+
+.carousel {
+    max-height: 400px !important;
+}
+
+
+/* ********************************************* */
+/* *************** section 2 ************* */
+/* ********************************************* */
+
+.section_2 {
+    width: 100%;
+    height: 300px;
+}
+
+.cake_type {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cake_type_image img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+
+.sec_2_mob_view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.sec_2_mob_view img {
+    margin: 10px;
+    max-width: 90px;
+    max-height: auto;
+}
+
+/* ********************************************* */
+/* *************** item cards ************* */
+/* ********************************************* */
+
+.item_card {
+    max-width: 300px;
+    height: 320px;
+    /* background-color: aqua; */
+}
+
+.card_image {
+    width: 100%;
+    height: 60%;
+}
+
+.card_image img {
+    width: 100%;
+    height: 100%;
+}
+
+.item_details {
+    display: flex;
+    flex-direction: column;
+}
+
+.item_details a {
+    color: black;
+}
+
+.item_details a:hover {
+    color: #FD0600;
+}
+
+
+/* ********************************************* */
+/* *************** servises ************* */
+/* ********************************************* */
+
+.servises {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.servises img {
+    max-width: 135px;
+    max-height: 135px;
+}
+
+.servises span {
+    font-size: 21px;
+}
+
+
+/* ********************************************* */
+/* *************** Testimonials ************* */
+/* ********************************************* */
+
+.section_5 {
+    width: 100%;
+}
+
+.section_5>h3 {
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.testimonials-box {
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+.testimonials {
+    width: 90%;
+    height: auto;
+}
+
+.testimonials p {
+    color: gray;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+}
+
+.h_line {
+    width: 90%;
+    height: 1px;
+    background-color: rgba(189, 188, 188, 0.589);
+    margin-right: 5px;
+}
+
+
+
+/* ********************************************* */
+/* *************** section 6 ************* */
+/* ********************************************* */
+
+
+.section_6 {
+    padding: 30px;
+}
+
+.find_more_product p {
+    font-size: 15px;
+    font-weight: 500;
+    color: gray;
+}
+
+.find_more_product a {
+    color: #FD0600;
+    font-weight: 300;
+}
+
+
+/* ********************************************* */
+/* *************** section 6 ************* */
+/* ********************************************* */
+
+
+footer {
+    background-color: white !important;
+}
+
+footer a {
+    color: gray;
+}
+
+footer a:hover {
+    color: #FD0600;
+}
+
+
+
+
+/* path */
+.path{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #dbdde259;
+}
+
+.path p{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: gray ;
+}
+.path a{
+    color: gray;
+}
+.path a:hover{
+    color: #FD0600;
+}
+
+
+
+
+
+
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++ RESPONSIVE ++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+@media screen and (max-width: 992px){
+    .servises img {
+        max-width: 85px;
+        max-height: 85px;
+    }
+    .servises span {
+        font-size: 17px;
+    }
+
+    .mon_menu_icon{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .cake_type {
+        display: none;
+    }
+
+    .sec_2_mob_view {
+        display: block;
+    }
+
+    .servises img {
+        max-width: 75px;
+        max-height: 75px;
+    }
+
+    .servises span {
+        font-size: 17px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .Franchise_with_us{
+        display: none;
+    }
+
+    .banner{
+        height: 20px;
+    }
+
+    .banner p{
+        font-size: 10px;
+        margin-top: 3px;
+    }
+
+    #carouselBasicExample{
+        height: 200px;
+    }
+
+    .servises span {
+        font-size: 14px;
+    }
+
+    .testimonials p {
+        font-size: 13px;
+    }
+
+    .name {
+        font-size: 11px;
+    }
+
+    .find_more_product p {
+        font-size: 12px;
+        
+    }
+    .sec_2_mob_view img {
+        margin: 5px;
+        max-width: 70px;
+        max-height: auto;
+    }
+   
+    .section_2 {
+        max-height: 200px;
+    }
+}
+

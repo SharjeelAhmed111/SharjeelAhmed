@@ -1,0 +1,21 @@
+
+
+
+.contact h1{
+    text-align: center;
+}
+
+.contact p{
+    color: gray;
+    font-size: 13px;
+}
+
+
+.h_line_contact{
+    display: flex;
+    align-items: center;
+}
+
+.other_contact{
+    text-align: center;
+}

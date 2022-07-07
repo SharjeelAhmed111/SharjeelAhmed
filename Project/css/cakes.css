@@ -1,0 +1,336 @@
+.banner_cakes{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_cakes h4{
+    color: white;
+}
+
+#cake_name{
+    color: #FD0600;
+}
+
+.price{
+    font-size: 25px;
+}
+
+.pin_code{
+    display: flex;
+    flex-direction: column;
+}
+
+.pin_code input{
+    height: 45px;
+    outline: none;
+    border: gray 0.5px solid;
+}
+
+.pin_code input[placeholder]{
+   padding: 20px;
+}
+
+.pin_code button{
+    width: 180px;
+    height: 37px;
+    border-radius: 20px;
+    background-color: #FD0600;
+    border: none;
+    color: white;
+    margin: 15px 0px 20px 0px;
+}
+
+.desc{
+    color: gray;
+
+}
+
+/* .egg,.color,.pinata,.message p{
+    color: black;
+    font-size: 14px;
+}
+
+.egg span{
+    color: #FD0600;
+}
+
+.color span{
+    color: #FD0600;
+}
+.pinata span{
+    color: #FD0600;
+}
+.message span{
+    color: #FD0600;
+}
+
+select option{
+    color: gray;
+}
+
+.color select{
+    max-width: 500px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.egg select{
+    width: 500px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.pinata select{
+    width: 500px;
+    height: 40px;
+    margin-bottom: 20px;
+} */
+
+.message textarea{
+    width: 500px;
+}
+
+.num_of_cake{
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    border:  2px black solid;
+    display: flex;
+     align-items: center;
+     justify-content: space-around;
+}
+
+.ad_to_cart {
+    width: 500px;
+    height: 100px;
+
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.num_of_cake span{
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+}
+
+.ad_to_cart button{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #FD0600;
+    border: none;
+    color: white;
+    margin: 15px 0px 20px 0px;
+}
+
+.option{
+    display: flex;
+}
+
+.free_ship, .ins_pay{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.option img{
+    width: 50px;
+    height: 50px;
+}
+
+.details_cakes{
+    font-size: 15px;
+}
+
+#categories{
+    color: #FD0600;
+}
+
+
+.desc_and_review{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff10;
+    border: 0.5px #f8c3ce solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.nav-link:hover{
+    background-color: #f7cdd657;
+}
+
+.nav-link.active{
+    color: #FD0600 !important;
+    border-bottom: 1px #FD0600 solid!important;
+}
+
+
+.tab-content{
+    width: 100%;
+    
+}
+
+
+#desc_2 p{
+    
+    text-align: center;
+}
+
+#Reviews{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+    
+}
+
+#Reviews img{
+    width: 100%;
+    height: auto;
+}
+.rate_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.review input{
+    max-width: 600px;
+}
+.review input textarea{
+    max-width: 600px;
+}
+
+/* *********  rating system ******** */
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #FD0600;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #FD0600;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #FD0600;
+}
+
+
+.co{
+  background: #e8e7ec;
+  
+}
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++ RESPONSIVE ++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+@media screen and (max-width: 970px){
+    
+}
+
+@media screen and (max-width: 770px) {
+    
+    .color select{
+        max-width: 400px;
+       
+    }
+    
+    .egg select{
+        width: 400px;
+       
+    }
+    
+    .pinata select{
+        width: 400px;
+        
+    }
+    
+    .message textarea{
+        width: 400px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+
+   
+
+    .color select{
+        width: 100%;
+       
+    }
+    
+    .egg select{
+        width: 100%;
+       
+    }
+    
+    .pinata select{
+        width: 100%;
+        
+    }
+    
+    .message textarea{
+        width:100%;
+    }
+
+    .ad_to_cart{
+        width: 100%;
+    }
+
+   
+    
+    .ad_to_cart button{
+        width: 150px;
+        height: 35px;
+    }
+
+    .num_of_cake{
+        height: 35px;
+    }
+
+    .details_cakes{
+        font-size: 13px;
+    }
+
+    .info{
+        padding: 10px 10px 10px 10px;
+    }
+}
