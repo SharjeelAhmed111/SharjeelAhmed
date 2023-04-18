@@ -1,0 +1,1316 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://zakatonto.org"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://zakatonto.org">
+    <Prefix name="" IRI="http://zakatonto.org"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
+        <Literal>Aima</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
+        <Literal>Aimen</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
+        <Literal>Saleem</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/license"/>
+        <Literal>https://creativecommons.org/licenses/by/4.0/</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">A zakat ontology that covers the subject domain of zakat.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Accepting_islam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Al-Fuqara"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Al-Masakin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allah_do_mercy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allah_favour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allah_give_double_reward"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Animals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bani_isreal_people"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Benefits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Camels"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cant_pay_off_their_debts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clean_your_assets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collectors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conditions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Convert_to_muslims"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cows"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Day_of_judjement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Debtors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Denier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deprived"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Employees_collecting_money"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Few_resources"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fi-Sabilillah"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#For__Allah"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Freedom_of_slaves"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Freeing_Captives"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Give_clean_assets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Give_well_things"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Goats"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hajj"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Help_poors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#In_cause_of_god"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inclined_towards_islam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Islam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jewellary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kalma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_income"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Main_goal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mently_unstable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Munkir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Namaz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Needy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nisab"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Not_Applicable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Not_acceptable_namaz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Not_applicable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#People_engaged_in_ilm-e-deen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pillars"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Poor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recipients_of_zakat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reverts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seeds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Silver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Slaves_people"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spreading_deen_of_Allah"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Those_in_bondage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Those_in_debt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Those_in_difficulty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Travelers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Underage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zakat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zakat_collectors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#&apos;Goodness&apos;"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Don&apos;t_realize"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#AL_Msaakin_include"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Al-fuqra_include"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Fi-Sabilillah_are"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Freeing_Captives_are"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Reverts_include"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#animal_has_nisab"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#at_day_of_judgement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#collectors_are"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#debtors_are"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#denier_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_pillars"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#have_conditions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#include_benefits"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#jewellery_has_nisab"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#main_goal_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#nisab_has_category"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#not_applicable_on"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#recipients_are"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#satisfiesConditions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#travellers_include"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#gold_amount"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#no_of_camels"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#no_of_cows"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#no_of_goats"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#reward_amount"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#seed_amount"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#silver_amount"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Allah_with_you"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Edhi_Foundation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Needy_Muslims"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RS_18000"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rs_15000"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shaukat_Khanum_Cancer_Hospital"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yammama_Tribe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#allah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#clothes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#double_assets"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#halal_wealth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mercy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#money"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#not__relize_others"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#person"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#&apos;&apos;10=20&apos;&apos;"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#&apos;&apos;Rs.1=Rs.700&apos;&apos;"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1_calf_on_30_cows"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1_goat_on_40_goats"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1goat_on_5_camels"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#30_cows"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#40_goats"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#5_camels"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#52.5_tola_silver"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#7.5_tola_gold"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Balahi_by_Allah_to_Zakat_giver&apos;s"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#who_don&apos;t_pay_Zakat"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/license"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Accepting_islam"/>
+        <Class IRI="#Reverts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Al-Fuqara"/>
+        <Class IRI="#Recipients_of_zakat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Al-Masakin"/>
+        <Class IRI="#Recipients_of_zakat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Allah_do_mercy"/>
+        <Class IRI="#Benefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Allah_favour"/>
+        <Class IRI="#Benefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Allah_give_double_reward"/>
+        <Class IRI="#Benefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animals"/>
+        <Class IRI="#Nisab"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bani_isreal_people"/>
+        <Class IRI="#Denier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Camels"/>
+        <Class IRI="#Animals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cant_pay_off_their_debts"/>
+        <Class IRI="#Debtors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clean_your_assets"/>
+        <Class IRI="#Benefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collectors"/>
+        <Class IRI="#Recipients_of_zakat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Convert_to_muslims"/>
+        <Class IRI="#Reverts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cows"/>
+        <Class IRI="#Animals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Debtors"/>
+        <Class IRI="#Recipients_of_zakat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deprived"/>
+        <Class IRI="#Al-Masakin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Employees_collecting_money"/>
+        <Class IRI="#Collectors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Few_resources"/>
+        <Class IRI="#Travelers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fi-Sabilillah"/>
+        <Class IRI="#Recipients_of_zakat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#For__Allah"/>
+        <Class IRI="#Conditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Freedom_of_slaves"/>
+        <Class IRI="#Freeing_Captives"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Freeing_Captives"/>
+        <Class IRI="#Recipients_of_zakat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Give_clean_assets"/>
+        <Class IRI="#Conditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Give_well_things"/>
+        <Class IRI="#Conditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Goats"/>
+        <Class IRI="#Animals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gold"/>
+        <Class IRI="#Jewellary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hajj"/>
+        <Class IRI="#Pillars"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Help_poors"/>
+        <Class IRI="#Main_goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#In_cause_of_god"/>
+        <Class IRI="#Fi-Sabilillah"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inclined_towards_islam"/>
+        <Class IRI="#Reverts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jewellary"/>
+        <Class IRI="#Nisab"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kalma"/>
+        <Class IRI="#Pillars"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_income"/>
+        <Class IRI="#Al-Fuqara"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mently_unstable"/>
+        <Class IRI="#Not_Applicable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Munkir"/>
+        <Class IRI="#Denier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Namaz"/>
+        <Class IRI="#Pillars"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Needy"/>
+        <Class IRI="#Al-Masakin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Not_acceptable_namaz"/>
+        <Class IRI="#Denier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Not_applicable"/>
+        <Class IRI="#Al-Fuqara"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#People_engaged_in_ilm-e-deen"/>
+        <Class IRI="#Fi-Sabilillah"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Poor"/>
+        <Class IRI="#Al-Fuqara"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reverts"/>
+        <Class IRI="#Recipients_of_zakat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roza"/>
+        <Class IRI="#Pillars"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seeds"/>
+        <Class IRI="#Benefits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Silver"/>
+        <Class IRI="#Jewellary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Slaves_people"/>
+        <Class IRI="#Not_Applicable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spreading_deen_of_Allah"/>
+        <Class IRI="#Fi-Sabilillah"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Those_in_bondage"/>
+        <Class IRI="#Freeing_Captives"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Those_in_debt"/>
+        <Class IRI="#Debtors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Those_in_difficulty"/>
+        <Class IRI="#Al-Masakin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Travelers"/>
+        <Class IRI="#Recipients_of_zakat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Underage"/>
+        <Class IRI="#Not_Applicable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zakat"/>
+        <Class IRI="#Pillars"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zakat_collectors"/>
+        <Class IRI="#Collectors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#&apos;Goodness&apos;"/>
+        <Class IRI="#Day_of_judjement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Don&apos;t_realize"/>
+        <Class IRI="#Conditions"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Al-Fuqara"/>
+        <Class IRI="#Al-Masakin"/>
+        <Class IRI="#Collectors"/>
+        <Class IRI="#Debtors"/>
+        <Class IRI="#Fi-Sabilillah"/>
+        <Class IRI="#Freeing_Captives"/>
+        <Class IRI="#Reverts"/>
+        <Class IRI="#Travelers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Allah_do_mercy"/>
+        <Class IRI="#Allah_favour"/>
+        <Class IRI="#Allah_give_double_reward"/>
+        <Class IRI="#Clean_your_assets"/>
+        <Class IRI="#Seeds"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Animals"/>
+        <Class IRI="#Jewellary"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bani_isreal_people"/>
+        <Class IRI="#Munkir"/>
+        <Class IRI="#Not_acceptable_namaz"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Camels"/>
+        <Class IRI="#Cows"/>
+        <Class IRI="#Goats"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#For__Allah"/>
+        <Class IRI="#Give_clean_assets"/>
+        <Class IRI="#Give_well_things"/>
+        <Class IRI="#Don&apos;t_realize"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Gold"/>
+        <Class IRI="#Silver"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Hajj"/>
+        <Class IRI="#Kalma"/>
+        <Class IRI="#Namaz"/>
+        <Class IRI="#Roza"/>
+        <Class IRI="#Zakat"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Mently_unstable"/>
+        <Class IRI="#Slaves_people"/>
+        <Class IRI="#Underage"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Allah_favour"/>
+        <NamedIndividual IRI="#Allah_with_you"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collectors"/>
+        <NamedIndividual IRI="#Edhi_Foundation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Help_poors"/>
+        <NamedIndividual IRI="#Needy_Muslims"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gold"/>
+        <NamedIndividual IRI="#RS_18000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Silver"/>
+        <NamedIndividual IRI="#Rs_15000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collectors"/>
+        <NamedIndividual IRI="#Shaukat_Khanum_Cancer_Hospital"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bani_isreal_people"/>
+        <NamedIndividual IRI="#Yammama_Tribe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#For__Allah"/>
+        <NamedIndividual IRI="#allah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Give_well_things"/>
+        <NamedIndividual IRI="#clothes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Clean_your_assets"/>
+        <NamedIndividual IRI="#double_assets"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Give_clean_assets"/>
+        <NamedIndividual IRI="#halal_wealth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allah_do_mercy"/>
+        <NamedIndividual IRI="#mercy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Give_well_things"/>
+        <NamedIndividual IRI="#money"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Don&apos;t_realize"/>
+        <NamedIndividual IRI="#not__relize_others"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Al-Fuqara"/>
+        <NamedIndividual IRI="#person"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Al-Masakin"/>
+        <NamedIndividual IRI="#person"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collectors"/>
+        <NamedIndividual IRI="#person"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Debtors"/>
+        <NamedIndividual IRI="#person"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fi-Sabilillah"/>
+        <NamedIndividual IRI="#person"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Freeing_Captives"/>
+        <NamedIndividual IRI="#person"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reverts"/>
+        <NamedIndividual IRI="#person"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Travelers"/>
+        <NamedIndividual IRI="#person"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allah_give_double_reward"/>
+        <NamedIndividual IRI="#&apos;&apos;10=20&apos;&apos;"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seeds"/>
+        <NamedIndividual IRI="#&apos;&apos;Rs.1=Rs.700&apos;&apos;"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cows"/>
+        <NamedIndividual IRI="#30_cows"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Goats"/>
+        <NamedIndividual IRI="#40_goats"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Camels"/>
+        <NamedIndividual IRI="#5_camels"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Silver"/>
+        <NamedIndividual IRI="#52.5_tola_silver"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gold"/>
+        <NamedIndividual IRI="#7.5_tola_gold"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#&apos;Goodness&apos;"/>
+        <NamedIndividual IRI="#Balahi_by_Allah_to_Zakat_giver&apos;s"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Not_acceptable_namaz"/>
+        <NamedIndividual IRI="#who_don&apos;t_pay_Zakat"/>
+    </ClassAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#AL_Msaakin_include"/>
+        <ObjectProperty IRI="#recipients_are"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Al-fuqra_include"/>
+        <ObjectProperty IRI="#recipients_are"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Fi-Sabilillah_are"/>
+        <ObjectProperty IRI="#recipients_are"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Freeing_Captives_are"/>
+        <ObjectProperty IRI="#recipients_are"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Reverts_include"/>
+        <ObjectProperty IRI="#recipients_are"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#animal_has_nisab"/>
+        <ObjectProperty IRI="#nisab_has_category"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#collectors_are"/>
+        <ObjectProperty IRI="#recipients_are"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#debtors_are"/>
+        <ObjectProperty IRI="#recipients_are"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#recipients_are"/>
+        <ObjectProperty IRI="#travellers_include"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#AL_Msaakin_include"/>
+        <Class IRI="#Al-Masakin"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Al-fuqra_include"/>
+        <Class IRI="#Al-Fuqara"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Fi-Sabilillah_are"/>
+        <Class IRI="#Fi-Sabilillah"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Freeing_Captives_are"/>
+        <Class IRI="#Freeing_Captives"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Reverts_include"/>
+        <Class IRI="#Reverts"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#animal_has_nisab"/>
+        <Class IRI="#Animals"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#at_day_of_judgement"/>
+        <Class IRI="#Day_of_judjement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#collectors_are"/>
+        <Class IRI="#Collectors"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#debtors_are"/>
+        <Class IRI="#Debtors"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#denier_of"/>
+        <Class IRI="#Denier"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_pillars"/>
+        <Class IRI="#Islam"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#have_conditions"/>
+        <Class IRI="#Conditions"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#include_benefits"/>
+        <Class IRI="#Benefits"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#jewellery_has_nisab"/>
+        <Class IRI="#Jewellary"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#main_goal_to"/>
+        <Class IRI="#Main_goal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#nisab_has_category"/>
+        <Class IRI="#Nisab"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#not_applicable_on"/>
+        <Class IRI="#Not_Applicable"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#recipients_are"/>
+        <Class IRI="#Recipients_of_zakat"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#travellers_include"/>
+        <Class IRI="#Travelers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#AL_Msaakin_include"/>
+        <Class IRI="#Deprived"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#AL_Msaakin_include"/>
+        <Class IRI="#Needy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#AL_Msaakin_include"/>
+        <Class IRI="#Those_in_difficulty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Al-fuqra_include"/>
+        <Class IRI="#Low_income"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Al-fuqra_include"/>
+        <Class IRI="#Not_applicable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Al-fuqra_include"/>
+        <Class IRI="#Poor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Fi-Sabilillah_are"/>
+        <Class IRI="#In_cause_of_god"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Fi-Sabilillah_are"/>
+        <Class IRI="#People_engaged_in_ilm-e-deen"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Fi-Sabilillah_are"/>
+        <Class IRI="#Spreading_deen_of_Allah"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Freeing_Captives_are"/>
+        <Class IRI="#Freedom_of_slaves"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Freeing_Captives_are"/>
+        <Class IRI="#Those_in_bondage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Reverts_include"/>
+        <Class IRI="#Accepting_islam"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Reverts_include"/>
+        <Class IRI="#Convert_to_muslims"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Reverts_include"/>
+        <Class IRI="#Inclined_towards_islam"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#animal_has_nisab"/>
+        <Class IRI="#Camels"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#animal_has_nisab"/>
+        <Class IRI="#Cows"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#animal_has_nisab"/>
+        <Class IRI="#Goats"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#at_day_of_judgement"/>
+        <Class IRI="#&apos;Goodness&apos;"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#collectors_are"/>
+        <Class IRI="#Employees_collecting_money"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#collectors_are"/>
+        <Class IRI="#Zakat_collectors"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#debtors_are"/>
+        <Class IRI="#Cant_pay_off_their_debts"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#debtors_are"/>
+        <Class IRI="#Those_in_debt"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#denier_of"/>
+        <Class IRI="#Bani_isreal_people"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#denier_of"/>
+        <Class IRI="#Munkir"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#denier_of"/>
+        <Class IRI="#Not_acceptable_namaz"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_pillars"/>
+        <Class IRI="#Pillars"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#have_conditions"/>
+        <Class IRI="#For__Allah"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#have_conditions"/>
+        <Class IRI="#Give_clean_assets"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#have_conditions"/>
+        <Class IRI="#Give_well_things"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#have_conditions"/>
+        <Class IRI="#Don&apos;t_realize"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#include_benefits"/>
+        <Class IRI="#Allah_do_mercy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#include_benefits"/>
+        <Class IRI="#Allah_favour"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#include_benefits"/>
+        <Class IRI="#Allah_give_double_reward"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#include_benefits"/>
+        <Class IRI="#Clean_your_assets"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#include_benefits"/>
+        <Class IRI="#Seeds"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#jewellery_has_nisab"/>
+        <Class IRI="#Gold"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#jewellery_has_nisab"/>
+        <Class IRI="#Silver"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#main_goal_to"/>
+        <Class IRI="#Help_poors"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#nisab_has_category"/>
+        <Class IRI="#Animals"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#nisab_has_category"/>
+        <Class IRI="#Jewellary"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#not_applicable_on"/>
+        <Class IRI="#Mently_unstable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#not_applicable_on"/>
+        <Class IRI="#Slaves_people"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#not_applicable_on"/>
+        <Class IRI="#Underage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#recipients_are"/>
+        <Class IRI="#Al-Fuqara"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#recipients_are"/>
+        <Class IRI="#Al-Masakin"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#recipients_are"/>
+        <Class IRI="#Collectors"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#recipients_are"/>
+        <Class IRI="#Debtors"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#recipients_are"/>
+        <Class IRI="#Fi-Sabilillah"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#recipients_are"/>
+        <Class IRI="#Freeing_Captives"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#recipients_are"/>
+        <Class IRI="#Reverts"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#recipients_are"/>
+        <Class IRI="#Travelers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#satisfiesConditions"/>
+        <Class IRI="#Nisab"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#travellers_include"/>
+        <Class IRI="#Few_resources"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#gold_amount"/>
+        <Class IRI="#Gold"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Al-Fuqara"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Al-Masakin"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Collectors"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Debtors"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Fi-Sabilillah"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Freeing_Captives"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Reverts"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Travelers"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#no_of_camels"/>
+        <Class IRI="#Camels"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#no_of_cows"/>
+        <Class IRI="#Cows"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#no_of_goats"/>
+        <Class IRI="#Goats"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#reward_amount"/>
+        <Class IRI="#Allah_give_double_reward"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#seed_amount"/>
+        <Class IRI="#Seeds"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#silver_amount"/>
+        <Class IRI="#Silver"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#gold_amount"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#no_of_camels"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#no_of_cows"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#no_of_goats"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#reward_amount"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#seed_amount"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#silver_amount"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Benefits</IRI>
+        <Literal>Zakat is a form of obligatory charity with the literal meaning of the word being &apos;to cleanse,&apos; Muslims believe that paying Zakat purifies, increases and blesses the remainder of their wealth.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Benefits</IRI>
+        <Literal>Bnefits</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Conditions</IRI>
+        <Literal>To be eligible to receive zakat, the recipient must be poor and/or needy or  must not belong to your immediate family; your spouse, children, parents and grandparents cannot receive your zakat.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Conditions</IRI>
+        <Literal>Conditions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Day_of_judjement</IRI>
+        <Literal>On the day of Judgment, those who did not give the zakat will be held accountable and punished.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Day_of_judjement</IRI>
+        <Literal>Day_of_judjement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Denier</IRI>
+        <Literal>A person who accepts that Zakat is obligatory but does not pay is a transgressor and will face the consequences accordingly. But if he does not believe that Zakat is obligatory, he is a kafir.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Denier</IRI>
+        <Literal>Denier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Main_goal</IRI>
+        <Literal>The main goal is to cleanliness, growth, blessing and praise. This form of charity helps to purify your wealth, increases blessings in your life and gains you much reward.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Main_goal</IRI>
+        <Literal>Main_goal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Nisab</IRI>
+        <Literal>Nisab is the minimum amount that a Muslim must have before being obliged to Zakat.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Nisab</IRI>
+        <Literal>Nisab</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Not_Applicable</IRI>
+        <Literal>The recipient must not belong to your immediate family; your spouse, children, parents and grandparents cannot receive your zakat. Other relatives, however, can receive your zakat.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Not_Applicable</IRI>
+        <Literal>Not_Applicable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pillars</IRI>
+        <Literal>The foundation of Islamic religious practices is the Five Pillars. These basic duties -- belief, worship, fasting, almsgiving, and pilgrimage -- guide Muslims in their daily life and their worship of God.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pillars</IRI>
+        <Literal>Pillars</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Recipients_of_zakat</IRI>
+        <Literal>To be eligible to receive zakat, the recipient must be poor and/or needy. A poor person is someone whose property, in excess of his basic requirements, does not reach the nisab threshold.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Recipients_of_zakat</IRI>
+        <Literal>Recipients_of_zakat</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
